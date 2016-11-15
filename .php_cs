@@ -18,4 +18,5 @@ return Symfony\CS\Config::create()
         Symfony\CS\Finder::create()
             ->in(__DIR__.'/module')
     )
+    ->setUsingCache(true)
 ;
